@@ -1,0 +1,82 @@
+body {
+  background-image: url('./images/background.png');
+  background-size: cover;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+}
+
+h1 {
+  filter: drop-shadow(0 0 3px rgba(255, 252, 252, 0.9));
+  font-family: monospace;
+  font-size: 70px;
+  text-transform: uppercase;
+
+}
+
+h2 {
+  font-family: monospace;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+.PlanetCard__img {
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.PlanetCard__img:hover {
+  filter: drop-shadow(0 0 10px rgba(255, 252, 252, 0.9));
+  transform: rotate(0.5turn);
+}
+
+.SolarSystem__section {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.SolarSystem__section > div {
+  max-width: calc(100% / 8);
+}
+
+.SolarSystem__section > div > img {
+  height: auto;
+  max-width: 100%;
+}
+
+.Missions__div {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 30px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.9);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: center;
+  margin: 25px 100px;
+  padding-bottom: 30px;
+}
+
+.Missions__div > h2 {
+  flex: 1 0 100%;
+  padding-top: 30px;
+}
+
+.MissionCard__div {
+  background: rgba(24, 26, 37, 0.5);
+  border: 1px solid white;
+  border-radius: 17px;
+  display: flex;
+  flex-direction: column;
+  mix-blend-mode: hard-light;
+  width: 40%;
+}
+
+.MissionCard__div:hover {
+  filter: drop-shadow(0 0 10px rgba(255, 252, 252, 0.9));
+}
+
+.MissionCard__div p:first-child {
+  font-weight: 700;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
