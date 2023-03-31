@@ -1,5 +1,6 @@
 # Projeto Solar System
 Primeiro projeto em React cuja página é um modelo do Sistema Solar. A pessoa usuária é capaz de visualizar todos os planetas do Sistema Solar renderizados na tela e informações sobre missões espaciais.
+<img src="./projeto.gif">
 
 ## :computer: Visualize este projeto:
 Acesse a página aqui:

@@ -7,9 +7,9 @@ class MissionCard extends Component {
     return (
       <div data-testid="mission-card" className="MissionCard__div">
         <p data-testid="mission-name">{ name }</p>
-        <p data-testid="mission-year">{ year }</p>
-        <p data-testid="mission-country">{ country }</p>
-        <p data-testid="mission-destination">{ destination }</p>
+        <p data-testid="mission-year"><i class="fa-solid fa-calendar-day"></i>{ year }</p>
+        <p data-testid="mission-country"><i class="fa-sharp fa-solid fa-location-dot"></i>{ country }</p>
+        <p data-testid="mission-destination"><i class="fa-solid fa-flag"></i>{ destination }</p>
       </div>
     );
   }
